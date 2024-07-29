@@ -19,7 +19,7 @@ jobs:
     steps:
     - name: Update Node
       run: |
-        sudo apt-get remove nodejs
+        apt-get remove nodejs
         nvm install 16.15.1
         
     - name: Setup Gradle
