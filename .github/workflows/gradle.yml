@@ -11,8 +11,8 @@ jobs:
   build:
 
     runs-on: 
-      group: gpu-group
-      labels: gpu-test-runner
+      group: public-gpu
+      labels: linux-gpu-t4
     container:
       image: beehivelab/tornadovm-nvidia-openjdk:1.0.6
     permissions:
