@@ -10,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: small-runner
+    runs-on: ubuntu-latest
     container:
       image: beehivelab/tornadovm-nvidia-openjdk:1.0.6
     permissions:
